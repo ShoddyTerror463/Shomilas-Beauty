@@ -1,4 +1,4 @@
-/* Stylesheet for Waxing Services website */
+/* Stylesheets for Waxing Services website */
 
 /* Global styles */
 body {
@@ -60,7 +60,7 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
     background: linear-gradient(to bottom, #1b261f, #198f72);
-  -webkit-background-clip: text;
+  
   -webkit-text-fill-color: transparent;
   display: flex;
   justify-content: space-between;
@@ -241,5 +241,7 @@ body {
       text-decoration: underline;
     }
     
-    
+    #slod {
+      font-size: 30px;
+    }
     
