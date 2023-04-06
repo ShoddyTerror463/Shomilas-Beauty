@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Waxing Services | Shomila Beauty</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <audio autoplay>
+      <source src="relaxing-145038.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+      function copyText() {
+        var textToCopy = "123456789"; // replace this with the text you want to copy
+        navigator.clipboard.writeText(textToCopy);
+        alert("Text copied to clipboard!");
+      }
+
+      
+		// Scroll to section2 after 3 seconds
+		setTimeout(function(){
+			document.getElementsById("hero").scrollIntoView({
+				behavior: 'smooth'
+			});
+		}, 3000);
+
+		// Scroll to section3 after 6 seconds
+		setTimeout(function(){
+			document.getElementsByClassName("product").scrollIntoView({
+				behavior: 'smooth'
+			});
+		}, 6000);
+	
+    const myButton = document.getElementById("myButton");
+myButton.addEventListener("click", function() {
+  myButton.classList.add("clicked");
+});
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Navigation Menu Here -->
+      </nav>
+      
+    </header>
+    
+    <section id="hero">
+      
+      <h1>Shomila's Beauty Lounge</h1>
+      
+    </section>
+ <section class="quote">
+      <h3>"There is nothing more beautiful than confidence." - Beyoncé</h3>
+    </section>
+    <section class="product">
+      <img src="eye-treatments.jpg">
+      <h2>Eyes Treatment</h2>
+      <p><ul>
+        <li>Eyelashes tinting £5 </li>
+        <li>Eyebrows tinting     £4</li>
+        <li>Eyebrows shape     £4</li>
+        <li>Individual lashes     £10</li>
+      </ul></p>
+    </section>
+
+    <section class="quote">
+      <h3>"Self-care is not a luxury, it's a necessity." - Unknown</h3>
+    </section>
+
+    <section class="product">
+      <img src="waxing.jpg" height="250" width="250">
+      <h2>Waxing</h2>
+      <p><ul>
+        <li>Half leg     £7.50</li>
+        <li>Full leg     £15</li>
+        <li>Half arm     £6</li>
+        <li>Full arm     £6</li>
+        <li>Chin     £4</li>
+        <li>Upper lip     £3</li>
+        <li>Eyebrows     £4</li>
+        <li>Under arms     £4</li>
+      </ul></p>
+    </section>
+    
+    <section class="quote">
+      <h3>"Invest in your skin. It is going to represent you for a very long time." - Linden Tyler</h3>
+    </section>
+
+    <section class="product">
+      <img src="facial.jpg" height="250" width="250">
+      <h2>Face</h2>
+      <p><ul>
+        <li>Full face *thread or wax*     £12</li>
+        <li>Facial     £20</li>
+      </ul></p>
+    </section>
+
+    <section class="quote">
+      <h3>"Beauty is not in the face; beauty is a light in the heart." - Khalil Gibran</h3>
+    </section>
+
+    <section class="product">
+      <img src="nails.jpg" height="250" width="250">
+      <h2>Nail bar</h2>
+      <p><ul>
+        <li>manicure      £10</li>
+        <li>pedicure     £20</li>
+      </ul></p>
+    </section>
+
+   
+      
+    <section id="cta">
+      <h3>Book Your Appointment Now</h3>
+      <button id="tel" onclick="window.location.href='tel:07404455976'">Call Us Now</button>
+
+
+    </section>
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>At Shomila Beauty Lounge, we believe that waxing is an art form, and we approach each appointment with precision, care, and attention to detail. Our goal is to help you feel confident and beautiful, whether you're getting ready for a special event or simply treating yourself to a little self-care.</p>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <ul>
+        <li>177 Grace Street/NE6 2RR</li>
+        <li>Phone: 07404455976
+        
+        <button onclick="copyText()">
+          <img src="copy-and-paste-icon-19.png" alt="Copy" width="20" height="20">
+        </button></li>
+
+
+
